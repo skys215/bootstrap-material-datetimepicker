@@ -1,11 +1,11 @@
 {
-  "version": "1.5.3",
+  "version": "2.0.0",
   "upstream": {
-    "git": "https://github.com/adamwdraper/Numeral-js.git",
-    "release": "1.5.3",
+    "git": "https://github.com/aT00rk/bootstrap-material-datetimepicker.git",
+    "release": "2.0.0",
     "versionFile": "package.json"
   },
   "hook": {
-    "repoFullName": "adamwdraper/Numeral-js"
+    "repoFullName": "T00rk/bootstrap-material-datetimepicker"
   }
 }

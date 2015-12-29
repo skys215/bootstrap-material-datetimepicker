@@ -1,29 +1,17 @@
 Package.describe({
-  name: 'numeral:numeral',
-  summary: 'Numeral.js (official) - A library for formatting and manipulating numbers.',
-  version: '1.5.3_1',
-  git: 'https://github.com/MeteorPackaging/numeraljs-core-wrapper.git'
+  name: 'skys215:bootstrap-material-datetimepicker',
+  summary: 'Material Datetimepicker',
+  version: '2.0.0',
+  git: 'https://github.com/skys215/bootstrap-material-datetimepicker.git',
+  documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0.1');
-  api.addFiles([
-    'meteor-pre.js',
-    'upstream/numeral.js',
-    'meteor-post.js',
-  ]);
-  api.export('numeral');
-});
+  api.versionsFrom('1.0.5');
+  api.use('momentjs:moment@2.9.0');
+  api.use('jquery');
+  api.use('fezvrasta:bootstrap-material-design@0.3.0');
 
-Package.on_test(function(api) {
-  api.use('numeral:numeral');
-
-  api.use([
-    'tinytest',
-    'test-helpers'
-  ]);
-
-  api.add_files([
-    'tests/tests.js',
-  ]);
+  api.addFiles('css/bootstrap-material-datepicker.css', 'client');
+  api.addFiles('js/bootstrap-material-datepicker.js', 'client');
 });

@@ -1,7 +1,7 @@
 Package.describe({
   name: 'skys215:bootstrap-material-datetimepicker',
   summary: 'Material Datetimepicker',
-  version: '2.0.0',
+  version: '2.0.1',
   git: 'https://github.com/skys215/bootstrap-material-datetimepicker.git',
   documentation: 'README.md'
 });

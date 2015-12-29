@@ -15,9 +15,9 @@ Package.onUse(function(api) {
   api.addFiles('css/bootstrap-material-datetimepicker.css', 'client');
   api.addFiles('js/bootstrap-material-datetimepicker.js', 'client');
 
-  api.addFiles('font/Material-Design-Icons.eot', 'client');
-  api.addFiles('font/Material-Design-Icons.svg', 'client');
-  api.addFiles('font/Material-Design-Icons.ttf', 'client');
-  api.addFiles('font/Material-Design-Icons.woff', 'client');
-  api.addFiles('font/Material-Design-Icons.woff2', 'client');
+  api.addAssets('font/Material-Design-Icons.eot', 'client');
+  api.addAssets('font/Material-Design-Icons.svg', 'client');
+  api.addAssets('font/Material-Design-Icons.ttf', 'client');
+  api.addAssets('font/Material-Design-Icons.woff', 'client');
+  api.addAssets('font/Material-Design-Icons.woff2', 'client');
 });

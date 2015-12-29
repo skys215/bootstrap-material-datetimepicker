@@ -12,6 +12,6 @@ Package.onUse(function(api) {
   api.use('jquery');
   api.use('fezvrasta:bootstrap-material-design@0.3.0');
 
-  api.addFiles('css/bootstrap-material-datepicker.css', 'client');
-  api.addFiles('js/bootstrap-material-datepicker.js', 'client');
+  api.addFiles('css/bootstrap-material-datetimepicker.css', 'client');
+  api.addFiles('js/bootstrap-material-datetimepicker.js', 'client');
 });
